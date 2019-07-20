@@ -1,0 +1,67 @@
+.row{
+        margin: 0;
+      }
+      .custom-btn{
+            background: orange;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+
+      }
+      .custom-line-height{
+        line-height: 35px;
+      }
+      .user-image-icon{
+        display: none;
+      }
+      
+      
+    .mobile_menu{
+      display: none;
+    }
+    .menu a{
+      font-family: Baloo Da !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: rebeccapurple;
+    margin: 10px;
+    }
+    .user-image-mobile{
+      display: none;
+    }
+    @media only screen and (max-width: 600px) {
+      .user-image{
+        display: none;
+      }
+      .mobile_menu{
+      display: block;
+    }
+      .user-image-mobile{
+        display: block;
+      }
+      .user-image-icon{
+        display: none;
+      }
+      .svg{
+          width: 100px !important;
+      }
+          .navbar-toggler-img{
+        background-image: url('logo.png');
+        width: 39px;
+    height: 39px;
+    border: none;
+    background-color: white
+      }
+      .navbar-toggler-img{
+        display: block;
+      }
+      }
+      /* .custom-toggle-btn{
+        background-color: orange;
+      } */
+      .navbar-toggler-img{
+        display: none;
+      }
